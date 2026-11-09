@@ -1,0 +1,4 @@
+# Plain static HTML site: no build step, serve files from the repo root.
+[build]
+  command = "echo 'Static site - no build step required'"
+  publish = "."
